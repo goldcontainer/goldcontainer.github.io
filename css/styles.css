@@ -2,7 +2,7 @@ body {
 	padding: 100px 600px 0px 600px;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 850px) {
 	
 	body {
 		padding: 100px;
