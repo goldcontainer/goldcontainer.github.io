@@ -1,0 +1,29 @@
+---
+title: Joshua Kim | www.goldcontainer.github.io
+layout: default
+---
+
+<h3 class="intro-header"> An aspiring software engineer. </h3>
+
+<div class="intro">
+	<p>NEW JERSEY, &mdash; I graduated from Rutgers University with a Bachelor of Science in Computer Science and an academic minor in Mathematics. I've always been curious of why and how things worked in most systems. Which is why I am seeking opportunities to learn the responsiblities and software design paradigms of a back end engineer. </p>
+
+	<p>Currently, I am a supply chain analyst at <a href="https://www.samsung.com/us/aboutsamsung/home/">Samsung</a>. In the past, I worked as a logistics and accounting assistant at <a href="http://www.corentec.com">Corentec</a>, a medical implant and device company. In 2018, I competed and won at my first ever hackathon hosted by <a href="https://www.publicissapient.com">Publicis.Sapient</a>, where I built an intra-day profit/loss calculation and aggregation back-end module for a hypothetical Global Equities Desk. I am proficient in both C and Java due to much of my coursework concentrating on subjects like operating systems, computer architecture, and programming languages. I am also interested in developing an eclectic background; Currently, I am learning and experimenting with front end tools and technologies like HTML, CSS, and JavaScript. Furthermore, I enjoy reading books or listening to podcasts pertaining to behavioral economics.</p>
+
+	<p>I plan on using this site to showcase my projects and to track my progress when learning new software technologies and languages. More to come.</p>
+</div>
+
+<br/>
+
+<div class="blog-feed">
+	<h3>Recent Blog Posts</h3>
+
+	{% for post in site.posts %}
+	<div class="post">
+		<div class="post-title"><a href="{{ post.url | replace_first: '/', '' }} "> {{ post.title }} </a></div>
+		<div class="date"> {{ post.date | date_to_string }} </div>
+	</div>
+	
+	<p> {{ post.excerpt }} </p>
+	{% endfor %}
+</div>

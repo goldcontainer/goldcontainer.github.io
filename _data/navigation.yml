@@ -1,0 +1,10 @@
+- name: Home
+  link: /
+- name: Blog
+  link: /blog.html
+- name: Projects
+  link: /projects.html
+- name: Resume
+  link: /SWE.2020.Kim.J.pdf
+- name: Github
+  link: https://github.com/goldcontainer

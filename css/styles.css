@@ -1,0 +1,37 @@
+body {
+	padding: 100px 600px 0px 600px;
+}
+
+h1,
+h3 {
+	font-family: 'Bebas Neue', cursive;
+}
+
+.intro-header {
+	font-family: 'Amiri', serif;;
+	text-align: center;
+}
+
+.nav {
+	text-align: center;
+}
+
+li {
+	margin: 10px 10px 10px 10px;
+	display: inline;
+}
+
+a:link,
+a:visited {
+	color: #000;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ff2400;
+}
+
+p {
+	font-family: 'Amiri', serif;
+	line-height: 1.2em;
+}
