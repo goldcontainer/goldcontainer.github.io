@@ -2,6 +2,14 @@ body {
 	padding: 100px 600px 0px 600px;
 }
 
+@media only screen and (max-width: 800px) {
+	
+	body {
+		padding: 100px;
+	}
+
+}
+
 h1,
 h3 {
 	font-family: 'Bebas Neue', cursive;
